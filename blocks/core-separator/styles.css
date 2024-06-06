@@ -1,0 +1,9 @@
+/* Seperator
+* @since ProLooks 3
+--------------------------------------------- */
+
+/* Reset to 1px */
+.wp-block-separator {
+  border-top: 1px solid;
+  width: 100%;
+}

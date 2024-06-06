@@ -1,0 +1,23 @@
+/**  Utility Classes: Blur
+* @since ProLooks 4
+* --------------------------------------------- */
+
+.blur-dimmer {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.blur-dim {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.blur-default {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.blur-strong {
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+}

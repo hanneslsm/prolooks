@@ -1,0 +1,48 @@
+/* Details
+* @since ProLooks 4
+--------------------------------------------- */
+
+/**
+* Default
+*/
+
+/**
+ * Variations
+ */
+.is-style-details-chevron {
+  & summary {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+    transition: 0.2s;
+
+    /* remove rectangle on Safari */
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: rotate(0deg); /* chevron faces to right */
+      transition: 0.2s;
+
+      padding-bottom: 0.2em;
+      aspect-ratio: 1/1;
+      height: 1.5em;
+      content: "\203A"; /* chevron */
+      font-weight: 400;
+      font-size: 1.2em;
+    }
+  }
+  & p:first-of-type {
+    margin-top: var(--wp--preset--spacing--10);
+  }
+
+  &[open] summary::after {
+    transform: rotate(90deg); /* chevron faces to the bottom */
+    padding-bottom: 0.2em;
+  }
+}

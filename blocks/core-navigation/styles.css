@@ -1,0 +1,39 @@
+/** Navigation
+* @since ProLooks 4
+* --------------------------------------------- */
+
+/**
+ * Default
+ * @link https://github.com/WordPress/gutenberg/issues/56140
+ */
+.wp-block-navigation a:where(:not(.wp-element-button)) {
+  padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--40) !important;
+}
+
+/**
+* Custom Reposnive Break Points 
+* @author wpdocs.io
+* @link https://wpdocs.io/code-snippets/how-to-change-the-breakpoint-on-a-gutenberg-navigation-block/
+*/
+
+body .wp-block-navigation__responsive-container-open:not(.always-shown) {
+  display: block !important;
+}
+body
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+    .is-menu-open
+  ) {
+  display: none !important;
+}
+
+@media (min-width: 1280px) {
+  body .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: none !important;
+  }
+  body
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+      .is-menu-open
+    ) {
+    display: block !important;
+  }
+}

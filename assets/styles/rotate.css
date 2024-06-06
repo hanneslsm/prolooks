@@ -1,0 +1,17 @@
+/**  Utility Classes: Rotate
+* @since ProLooks 4
+* --------------------------------------------- */
+
+.rotate-plus-2 {
+  transform: rotate(2deg);
+}
+.rotate-plus-3 {
+  transform: rotate(3deg);
+}
+
+.rotate-minus-2 {
+  transform: rotate(-2deg);
+}
+.rotate-minus-3 {
+  transform: rotate(-3deg);
+}

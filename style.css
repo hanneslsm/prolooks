@@ -1,0 +1,68 @@
+/*
+Theme Name: ProLooks-7
+Theme URI: https://prolooks.de
+Author: hanneslsm, Studio Leismann
+Author URI: https://studioleismann.com
+Description: ProLooks is a versatile WordPress block theme that goes beyond traditional themes by supporting intrinsic design &amp; fluid typography and functioning as a design system. It ensures optimal compatibility and optimization for the Wordpress Core-Editor.
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 5.7
+Version: 7.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: prolooks-7
+Tags: blog, grid-layout, one-column, two-columns, wide-blocks, block-patterns, block-styles, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-site-editing, full-width-template, sticky-post, style-variations, threaded-comments, design-system, starter
+
+/* SETUP */
+
+/* SETUP */
+
+/* Smoother transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+** UX Bug fixes
+*/
+
+/* https://github.com/WordPress/gutenberg/issues/53146 */
+.underline-none a {
+  text-decoration: underline dotted !important;
+}
+
+/*
+** External Link indicator
+** @link https://www.rgraph.net/blog/2022/using-css-vs-javascript-for-external-link-icons.html
+*/
+a[rel*="noreferrer"]::after {
+  content: "";
+  width: 1.5ex;
+  height: 1.5ex;
+  margin-left: 0.5ex;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  opacity: 0.75;
+}
+
+/*
+** Recent carousel post slider
+*/
+body .wppsac-post-carousel.design-1 .slick-prev {
+  left: -50px !important;
+}
+
+body .wppsac-post-carousel.design-1 .slick-next {
+  right: -50px !important;
+}
+
+.wppsac-post-carousel.design-1 .wppsac-carousel-slides {
+  padding: 0 20px;
+}
+
+.wppsac-post-image {
+  aspect-ratio: 16 / 9 !important;
+}

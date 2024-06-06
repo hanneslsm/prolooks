@@ -1,0 +1,13 @@
+/**  Utility Classes: Text
+* @since ProLooks 4
+* --------------------------------------------- */
+
+/* Line-breaks */
+.text-nowrap {
+  white-space: nowrap;
+}
+
+/* Text balance */
+.text-balance {
+  text-wrap: balance;
+}
