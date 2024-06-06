@@ -12,9 +12,7 @@ ProLooks is a versatile WordPress block theme that goes beyond traditional theme
 
 == Changelog ==
 
-= 0.0.1 =
-
-- Initial release
+see CHANGELOG.md
 
 == Copyright ==
 
