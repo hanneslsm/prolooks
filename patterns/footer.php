@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: prolooks-7/footer
+ * Slug: prolooks/footer
  * Categories: hidden
  * Inserter: no
  */
@@ -13,7 +13,7 @@
 <div class="wp-block-group"><!-- wp:site-logo /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo __('ProLooks is a versatile design system, WordPress block theme, and Figma UI kit. It is the perfect starting point for freelancers, agencies, or business owners to quickly build beautiful landing pages.', 'prolooks-7');?></p>
+<p class="has-small-font-size"><?php echo __('ProLooks is a versatile design system, WordPress block theme, and Figma UI kit. It is the perfect starting point for freelancers, agencies, or business owners to quickly build beautiful landing pages.', 'prolooks');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -25,7 +25,7 @@
 <!-- wp:column {"width":"20%"} -->
 <div class="wp-block-column" style="flex-basis:20%"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
-<p><?php echo __('<strong>Legal</strong>', 'prolooks-7');?></p>
+<p><?php echo __('<strong>Legal</strong>', 'prolooks');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:page-list /--></div>
@@ -39,7 +39,7 @@
 
 <!-- wp:group {"align":"wide","style":{"border":{"top":{"color":"var:preset|color|base-4","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--base-4);border-top-width:1px;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><?php echo __('© ProLooks.de by Studio Leismann · Some rights reserved', 'prolooks-7');?></p>
+<p class="has-text-align-center has-small-font-size"><?php echo __('© ProLooks.de by Studio Leismann · Some rights reserved', 'prolooks');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

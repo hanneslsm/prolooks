@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: home
- * Slug: prolooks-7/home
+ * Slug: prolooks/home
  * Categories: hidden
  * Inserter: no
  */
@@ -34,7 +34,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php echo __('', 'prolooks-7');?></p>
+<p><?php echo __('', 'prolooks');?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
