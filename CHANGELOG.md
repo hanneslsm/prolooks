@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [7.1.1] - 2024-06-10
+
+- Fix: background on page template
+
 ## [7.1.0] - 2024-06-07
 
 - Add content pattern
