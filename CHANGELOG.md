@@ -2,15 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [7.1.0] - 2024-06-07
+
+- Add content pattern
+- Change slug to "prolooks"
+- Add functions.php & inc
+- Refactor setup.php and patterns.php
+- Add pattern: content-3
+- Fix: pattern category slug
+
 ## [7.0.1] - 2024-06-07
 
-git updater Test
+- git updater Test
 
 ## [7.0.0] - 2024-06-06
 
-initial commit
-
+- initial commit
 
 ## [7.0.0] - 2024-05-24
 
-initial setup
+- initial setup

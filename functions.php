@@ -10,6 +10,9 @@
 // Setup
 require get_template_directory() . '/inc/setup.php';
 
+// Patterns Setup
+require get_template_directory() . '/inc/patterns.php';
+
 // Enqueue files
 require get_template_directory() . '/inc/enqueuing.php';
 

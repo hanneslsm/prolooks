@@ -2,8 +2,8 @@
 /**
  * Title: Content 1
  * Slug: prolooks/content-1
- * Categories: Content
- * Inserter: no
+ * Categories: prolooks/content
+ * Block Types: core/heading, core/paragraph
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
