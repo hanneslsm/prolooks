@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [7.1.2] - 2024-06-10
+
+- Fix: header pattern margins
+- Remove: navigation block styles from theme.json#
+- Remove: navigation block css styles
+
 ## [7.1.1] - 2024-06-10
 
 - Fix: background on page template
