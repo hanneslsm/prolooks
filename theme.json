@@ -442,10 +442,10 @@
     "spacing": {
       "blockGap": "var(--wp--preset--spacing--20)",
       "padding": {
-        "bottom": "0",
+        "bottom": "0px",
         "left": "var(--wp--preset--spacing--20)",
         "right": "var(--wp--preset--spacing--20)",
-        "top": "0"
+        "top": "0px"
       }
     },
     "typography": {
