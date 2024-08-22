@@ -2,18 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-## [8.0] - 2024-08-17
-
-- Update screenshot
-- Remove external link indicator
-- Add Paragraph Variation "Kicker"
-- Add new ProLooks Rainbow Gradient
-
-
-## [7.1.3] - 2024-06-14
-
-- Resolve WordPress/gutenberg#61398
-
 ## [7.1.2] - 2024-06-10
 
 - Fix: header pattern margins
