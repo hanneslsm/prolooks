@@ -1,0 +1,10 @@
+/* Page List
+* @since ProLooks 7
+--------------------------------------------- */
+
+/**
+ * Variations
+ */
+.is-style-paragraph-kicker {
+  color: var(--wp--preset--color--brand-3);
+}
