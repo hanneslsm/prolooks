@@ -2,7 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
-## [8.0] - 2024-08-17
+## [0.9.0] - 2025-04-02
+- ⚠️ Correct versioning
+
+---
+
+## [8.0.0] - 2024-08-17
 
 - Update screenshot
 - Remove external link indicator
