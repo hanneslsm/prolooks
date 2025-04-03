@@ -5,7 +5,7 @@
         {
           "gradient": "radial-gradient(at 0% 0%, hsla(215,100%,95%,1) 0px, transparent 50%), radial-gradient(at 20% 0%, hsla(183,100%,93%,1) 0px, transparent 50%), radial-gradient(at 40% 0%, hsla(213,100%,84%,1) 0px, transparent 50%), radial-gradient(at 60% 0%, hsla(214,100%,93%,1) 0px, transparent 50%), radial-gradient(at 80% 0%, hsla(258,100%,94%,1) 0px, transparent 50%), radial-gradient(at 100% 0%, hsla(42,100%,89%,1) 0px, transparent 50%)",
           "name": "ProLooks Rainbow",
-          "slug": "rainbow"
+          "slug": "prolooks-rainbow"
         },
         {
           "gradient": "radial-gradient(at 100% 100%, hsla(288,0%,100%,1) 0px, transparent 50%), radial-gradient(at 41% 85%, hsla(148,0%,100%,1) 0px, transparent 50%), radial-gradient(at 56% 36%, hsla(311,100%,100%,1) 0px, transparent 50%), radial-gradient(at 72% 61%, hsla(201,100%,90%,1) 0px, transparent 50%), radial-gradient(at 33% 38%, hsla(201,74%,92%,1) 0px, transparent 50%), radial-gradient(at 80% 47%, hsla(284,87%,94%,1) 0px, transparent 50%), radial-gradient(at 27% 54%, hsla(20,92%,91%,1) 0px, transparent 50%)",
@@ -109,5 +109,6 @@
   },
   "version": 3,
   "$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Prolooks Blue"
+	"title": "Prolooks Blue",
+	"slug": "color-prolooks-blue"
 }
