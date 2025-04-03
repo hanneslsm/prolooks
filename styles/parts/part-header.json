@@ -2,10 +2,10 @@
 	"version": 3,
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"blockTypes": ["core/group"],
-	"slug": "section-header-fixed",
-	"title": "[Header Fixed]",
+	"slug": "part-header",
+	"title": "🧩 Header",
 	"styles": {
-		"css": "/* see also src/scss/sections/ */",
+		"css": "/* see also src/scss/parts/ */",
 		"elements": {
 			"link":{
 				"color": {
