@@ -16,13 +16,13 @@ p{
 /* Block Style: Indicator
 ============================================================== */
 p.is-style-prolooks-indicator {
-	padding-inline-start: var(--wp--preset--spacing--20);
+	padding-inline-start: var(--wp--preset--spacing--medium);
 	text-indent: -2px; /* adjust the space of the border */
 	&::before {
 		position: relative;
 		content: "";
 		border: 1px solid var(--wp--preset--color--brand-3);
-		right: var(--wp--preset--spacing--20);
+		right: var(--wp--preset--spacing--medium);
 	}
 
 	/* Section Styles

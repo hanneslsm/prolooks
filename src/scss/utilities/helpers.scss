@@ -72,25 +72,25 @@
 /* Top */
 
 .top-10 {
-	top: var(--wp--preset--spacing--10) !important;
+	top: var(--wp--preset--spacing--small) !important;
 }
 .top-20 {
-	top: var(--wp--preset--spacing--20) !important;
+	top: var(--wp--preset--spacing--medium) !important;
 }
 .top-30 {
-	top: var(--wp--preset--spacing--30) !important;
+	top: var(--wp--preset--spacing--large) !important;
 }
 .top-40 {
-	top: var(--wp--preset--spacing--40) !important;
+	top: var(--wp--preset--spacing--x-large) !important;
 }
 .top-50 {
-	top: var(--wp--preset--spacing--50) !important;
+	top: var(--wp--preset--spacing--xx-large) !important;
 }
 .top-60 {
-	top: var(--wp--preset--spacing--60) !important;
+	top: var(--wp--preset--spacing--xxx-large) !important;
 }
 .top-60 {
-	top: var(--wp--preset--spacing--70) !important;
+	top: var(--wp--preset--spacing--huge) !important;
 }
 
 .blur-5 {

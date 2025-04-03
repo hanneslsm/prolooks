@@ -330,7 +330,7 @@
         "variations": {
           "rounded": {
             "border": {
-              "radius": "var(--wp--preset--spacing--10)"
+              "radius": "var(--wp--preset--spacing--small)"
             }
           }
         }
@@ -445,11 +445,11 @@
       }
     },
     "spacing": {
-      "blockGap": "var(--wp--preset--spacing--20)",
+      "blockGap": "var(--wp--preset--spacing--medium)",
       "padding": {
         "bottom": "0px",
-        "left": "var(--wp--preset--spacing--20)",
-        "right": "var(--wp--preset--spacing--20)",
+        "left": "var(--wp--preset--spacing--medium)",
+        "right": "var(--wp--preset--spacing--medium)",
         "top": "0px"
       }
     },

@@ -9,8 +9,8 @@
 		display: flex;
 		justify-content: space-between;
 		font-weight: 600;
-		padding-block-start: var(--wp--preset--spacing--20);
-		padding-block-end: var(--wp--preset--spacing--20);
+		padding-block-start: var(--wp--preset--spacing--medium);
+		padding-block-end: var(--wp--preset--spacing--medium);
 
 		/* remove rectangle on Safari */
 		&::-webkit-details-marker {
@@ -35,7 +35,7 @@
 		margin-block-start: 0px;
 	}
 	& > :last-child{
-		padding-block-end: var(--wp--preset--spacing--20);
+		padding-block-end: var(--wp--preset--spacing--medium);
 
 	}
 
