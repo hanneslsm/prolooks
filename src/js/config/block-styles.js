@@ -25,6 +25,7 @@ const blockStyles = [
 	{
 		block: 'core/group',
 		styles: [ { name: 'prolooks-spotlight', label: '🏅 Spotlight' } ],
+		styles: [ { name: 'prolooks-bg-gradient', label: '🧙‍♂️ Gradient' } ],
 	},
 	{
 		block: 'core/image',
