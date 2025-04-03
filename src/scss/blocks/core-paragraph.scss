@@ -12,11 +12,6 @@ p{
 	text-wrap: pretty;
 }
 
-/**
-* Block Style: Kicker
-*
-============================================================== */
-/// See styles/blocks
 
 /* Block Style: Indicator
 ============================================================== */
@@ -40,3 +35,14 @@ p.is-style-prolooks-indicator {
 		}
 	}
 }
+
+
+/**
+ * Block Style: Overline
+ */
+
+ p.is-style-prolooks-overline {
+	text-transform: uppercase;
+	letter-spacing: clamp(0.063rem, 0.156vw + 0rem, 0.125rem);
+	font-size: clamp(0.75rem, 0.313vw + 0.625rem, 0.875rem);
+ }

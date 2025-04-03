@@ -39,6 +39,7 @@ const blockStyles = [
 	{
 		block: 'core/paragraph',
 		styles: [ { name: 'prolooks-indicator', label: 'Indicator' } ],
+		styles: [ { name: 'prolooks-overline', label: 'Overline' } ],
 	},
 ];
 
