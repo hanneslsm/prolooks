@@ -10,41 +10,41 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Vollkorn",
+							"fontFamily": "Fraunces",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/vollkorn/vollkorn-400-normal.woff2"
+								"file:./assets/fonts/fraunces/fraunces-400-normal.woff2"
 							]
 						},
 						{
-							"fontFamily": "Vollkorn",
+							"fontFamily": "Fraunces",
 							"fontStyle": "normal",
 							"fontWeight": "600",
 							"src": [
-								"file:./assets/fonts/vollkorn/vollkorn-600-normal.woff2"
+								"file:./assets/fonts/fraunces/fraunces-600-normal.woff2"
 							]
 						},
 						{
-							"fontFamily": "Vollkorn",
+							"fontFamily": "Fraunces",
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/vollkorn/vollkorn-400-italic.woff2"
+								"file:./assets/fonts/fraunces/fraunces-400-italic.woff2"
 							]
 						},
 						{
-							"fontFamily": "Vollkorn",
+							"fontFamily": "Fraunces",
 							"fontStyle": "italic",
 							"fontWeight": "600",
 							"src": [
-								"file:./assets/fonts/vollkorn/vollkorn-600-italic.woff2"
+								"file:./assets/fonts/fraunces/fraunces-600-italic.woff2"
 							]
 						}
 					],
-					"fontFamily": "Vollkorn, serif",
-					"name": "Vollkorn",
-					"slug": "vollkorn"
+					"fontFamily": "Fraunces, serif",
+					"name": "Fraunces",
+					"slug": "fraunces"
 				},
 				{
 					"fontFace": [
@@ -84,52 +84,6 @@
 					"fontFamily": "Lato, sans-serif",
 					"name": "Lato",
 					"slug": "lato"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Phudu",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/phudu/phudu-400-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "Phudu",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/phudu/phudu-600-normal.woff2"
-							]
-						}
-					],
-					"fontFamily": "Phudu, system-ui",
-					"name": "Phudu",
-					"slug": "phudu"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Assistant",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/assistant/assistant-500-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "Assistant",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/assistant/assistant-700-normal.woff2"
-							]
-						}
-					],
-					"fontFamily": "Assistant, sans-serif",
-					"name": "Assistant",
-					"slug": "assistant"
 				}
 			]
 		}
@@ -138,19 +92,17 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--phudu)",
+					"fontFamily": "var(--wp--preset--font-family--fraunces)",
 					"fontStyle": "normal",
 					"fontWeight": "600"
 				}
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--assistant)",
-			"fontStyle": "normal",
-			"fontWeight": "500"
+			"fontFamily": "var(--wp--preset--font-family--lato)"
 		}
 	},
 	"version": 3,
-	"title": "Liquorice",
-	"slug": "typography-liquorice"
+	"title": "Typeset 2",
+	"slug": "typeset-2"
 }

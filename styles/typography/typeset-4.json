@@ -1,0 +1,94 @@
+{
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Instrument Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/instrument-serif/instrument-serif-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Instrument Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/instrument-serif/instrument-serif-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Instrument Serif\", serif",
+					"name": "Instrument Serif",
+					"slug": "instrument-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Instrument Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/instrument-sans/instrument-sans-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Instrument Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/instrument-sans/instrument-sans-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Instrument Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/instrument-sans/instrument-sans-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Instrument Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/instrument-sans/instrument-sans-600-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Instrument Sans\", sans-serif",
+					"name": "Instrument Sans",
+					"slug": "instrument-sans"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--instrument-serif)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		}
+	},
+	"version": 3,
+	"title": "Typeset 4",
+	"slug": "typeset-4"
+}

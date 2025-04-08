@@ -1,0 +1,94 @@
+{
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Platypi",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/platypi/platypi-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Platypi",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/platypi/platypi-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Platypi",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/platypi/platypi-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Platypi",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/platypi/platypi-600-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Platypi, serif",
+					"name": "Platypi",
+					"slug": "platypi"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"AR One Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ar-one-sans/ar-one-sans-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"AR One Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/ar-one-sans/ar-one-sans-600-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"AR One Sans\", sans-serif",
+					"name": "AR One Sans",
+					"slug": "ar-one-sans"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--platypi)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--ar-one-sans)",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		}
+	},
+	"version": 3,
+	"title": "Typeset 5",
+	"slug": "typeset-4"
+}
