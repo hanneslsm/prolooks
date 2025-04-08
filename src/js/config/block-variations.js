@@ -9,6 +9,6 @@ wp.blocks.registerBlockVariation( 'core/spacer', {
 	title: 'Spacer',
 	isDefault: true,
 	attributes: {
-		height: 'var:preset|spacing|large',
+		height: 'var:preset|spacing|30',
 	},
 } );

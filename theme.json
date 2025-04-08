@@ -309,10 +309,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--medium)",
-						"left": "var(--wp--preset--spacing--medium)",
-						"right": "var(--wp--preset--spacing--medium)",
-						"top": "var(--wp--preset--spacing--medium)"
+						"bottom": "var(--wp--preset--spacing--20)",
+						"left": "var(--wp--preset--spacing--20)",
+						"right": "var(--wp--preset--spacing--20)",
+						"top": "var(--wp--preset--spacing--20)"
 					}
 				}
 			},
@@ -404,13 +404,13 @@
 				},
 				"spacing": {
 					"margin": {
-						"left": "var(--wp--preset--spacing--medium)"
+						"left": "var(--wp--preset--spacing--20)"
 					},
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--medium)",
-						"left": "var(--wp--preset--spacing--large)",
-						"right": "var(--wp--preset--spacing--medium)",
-						"top": "var(--wp--preset--spacing--medium)"
+						"bottom": "var(--wp--preset--spacing--20)",
+						"left": "var(--wp--preset--spacing--30))",
+						"right": "var(--wp--preset--spacing--20)",
+						"top": "var(--wp--preset--spacing--20)"
 					}
 				},
 				"typography": {
@@ -441,10 +441,10 @@
 						"left": "0px"
 					},
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--medium)",
-						"left": "var(--wp--preset--spacing--large)",
-						"right": "var(--wp--preset--spacing--large)",
-						"top": "var(--wp--preset--spacing--medium)"
+						"bottom": "var(--wp--preset--spacing--20)",
+						"left": "var(--wp--preset--spacing--30))",
+						"right": "var(--wp--preset--spacing--30))",
+						"top": "var(--wp--preset--spacing--20)"
 					}
 				},
 				"typography": {
@@ -543,11 +543,11 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "var(--wp--preset--spacing--large)",
+			"blockGap": "var(--wp--preset--spacing--30))",
 			"padding": {
 				"bottom": "0px",
-				"left": "var(--wp--preset--spacing--medium)",
-				"right": "var(--wp--preset--spacing--medium)",
+				"left": "var(--wp--preset--spacing--20)",
+				"right": "var(--wp--preset--spacing--20)",
 				"top": "0px"
 			}
 		},
