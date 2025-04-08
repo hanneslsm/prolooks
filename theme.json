@@ -212,7 +212,8 @@
 				"em",
 				"rem",
 				"dvh",
-				"dvw"
+				"dvw",
+				"ch"
 			]
 		},
 		"typography": {
