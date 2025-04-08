@@ -38,8 +38,9 @@ const blockStyles = [
 	},
 	{
 		block: 'core/paragraph',
-		styles: [ { name: 'prolooks-indicator', label: 'Indicator' } ],
-		styles: [ { name: 'prolooks-overline', label: 'Overline' } ],
+		styles: [ { name: 'prolooks-indicator', label: 'Indicator' },
+			 { name: 'prolooks-overline', label: 'Overline' },
+			 { name: 'prolooks-checkmark', label: 'Checkmark' } ],
 	},
 ];
 
