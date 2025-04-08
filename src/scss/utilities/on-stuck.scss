@@ -9,7 +9,7 @@
 		transition: all 400ms linear;
 
 		&.is-stuck {
-			padding-top: var(--wp--preset--spacing--30));
+			padding-top: var(--wp--preset--spacing--30);
 		}
 	}
 }
@@ -20,13 +20,13 @@
 		transition: all 200ms linear;
 	}
 	&.is-stuck {
-		padding-top: var(--wp--preset--spacing--30));
+		padding-top: var(--wp--preset--spacing--30);
 	}
 	&.is-top > div {
 		box-shadow: var(--wp--preset--shadow--xx-large);
 	}
 	&.is-behind {
-		//padding-top: var(--wp--preset--spacing--30));
+		//padding-top: var(--wp--preset--spacing--30);
 		opacity: 0.2;
 	}
 }
