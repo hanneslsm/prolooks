@@ -177,33 +177,28 @@
 			"spacingSizes": [
 				{
 					"name": "small",
-					"size": "6px",
-					"slug": "small"
+					"size": "0.5rem",
+					"slug": "10"
 				},
 				{
 					"name": "medium",
 					"size": "1rem",
-					"slug": "medium"
+					"slug": "20"
 				},
 				{
 					"name": "large",
-					"size": "1.25rem",
-					"slug": "large"
+					"size": "1.5rem",
+					"slug": "30"
 				},
 				{
 					"name": "x-large",
-					"size": "2rem",
-					"slug": "x-large"
+					"size": "2.25rem",
+					"slug": "40"
 				},
 				{
 					"name": "xx-large",
 					"size": "4rem",
-					"slug": "xx-large"
-				},
-				{
-					"name": "xxx-large",
-					"size": "6rem",
-					"slug": "xxx-large"
+					"slug": "50"
 				}
 			],
 			"units": [
@@ -557,7 +552,7 @@
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "400",
-			"lineHeight": "1.6"
+			"lineHeight": "1.5"
 		}
 	},
 	"templateParts": [
