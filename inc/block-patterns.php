@@ -31,16 +31,14 @@ add_filter('should_load_remote_block_patterns', '__return_false');
  * @link https://developer.wordpress.org/themes/patterns/registering-patterns/#registering-a-pattern-category
  */
 
-add_action('init', 'prolooks_register_pattern_categories');
-
-function prolooks_register_pattern_categories()
-{
+ function prolooks_register_pattern_categories() {
     register_block_pattern_category(
-        'prolooks/content',
+        'Hero',
         array(
-            'label'       => __('Content', 'prolooks'),
-            'description' => __('Default basic heading & text layouts.', 'prolooks')
+            'label'       => __( 'Hero', 'prolooks' ),
+            'description' => __( 'Large eye-catching sections for above-the-fold content.', 'prolooks' ),
         )
     );
 }
+add_action( 'init', 'prolooks_register_pattern_categories' );
 
