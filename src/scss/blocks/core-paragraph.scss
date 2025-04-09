@@ -39,6 +39,8 @@ p.is-style-prolooks-indicator {
 /* Block Style: Checkmark
 ============================================================== */
 p.is-style-prolooks-checkmark {
+	text-indent: calc(-1 * (var(--wp--preset--spacing--10) + 1.25ch));
+    padding-left: var(--wp--preset--spacing--10) + 1ch;
 	&::before {
 		position: relative;
 		content: "✓";
