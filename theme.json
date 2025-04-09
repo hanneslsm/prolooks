@@ -20,7 +20,15 @@
 						"white"
 					],
 					"name": "Black and white",
-					"slug": "duotone-1"
+					"slug": "duotone-black-and-white"
+				},
+				{
+					"colors": [
+						"black",
+						"black"
+					],
+					"name": "Black Full",
+					"slug": "duotone-black-full"
 				}
 			],
 			"gradients": [
