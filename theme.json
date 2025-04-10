@@ -452,9 +452,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontStyle": "italic",
-					"fontWeight": "600"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"core/separator": {
