@@ -6,7 +6,7 @@
 ============================================================== */
 @use "../base/variables" as *;
 
-.wp-block-cover.is-style-prolooks-cover-link {
+.wp-block-cover.is-style-cover-link {
 	text-shadow:
 		0px 3px 16px rgba(0, 0, 0, 0.2),
 		0px 3px 3px rgba(0, 0, 0, 0.8);
@@ -45,7 +45,7 @@
 /* Desktop Styling
 -------------------------------------------------------------- */
 @media screen and (min-width: $medium) {
-	.is-style-prolooks-cover-link {
+	.is-style-cover-link {
 		.has-background-dim {
 			display: none;
 		}

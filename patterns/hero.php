@@ -12,8 +12,8 @@
 
 <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Title"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"center","className":"is-style-prolooks-overline"} -->
-<p class="has-text-align-center is-style-prolooks-overline">Der einfache Sofort-Launch: <br>In vier Wochen zur Markteinführung.</p>
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"center","className":"is-style-overline"} -->
+<p class="has-text-align-center is-style-overline">Der einfache Sofort-Launch: <br>In vier Wochen zur Markteinführung.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","level":1} -->
@@ -31,16 +31,16 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"horizontal","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-prolooks-checkmark"} -->
-<p class="is-style-prolooks-checkmark">Videoproduktion</p>
+<div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-checkmark"} -->
+<p class="is-style-checkmark">Videoproduktion</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"is-style-prolooks-checkmark"} -->
-<p class="is-style-prolooks-checkmark">Website-Erstellung</p>
+<!-- wp:paragraph {"className":"is-style-checkmark"} -->
+<p class="is-style-checkmark">Website-Erstellung</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"is-style-prolooks-checkmark"} -->
-<p class="is-style-prolooks-checkmark">Social Media Content</p>
+<!-- wp:paragraph {"className":"is-style-checkmark"} -->
+<p class="is-style-checkmark">Social Media Content</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

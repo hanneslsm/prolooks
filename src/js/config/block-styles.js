@@ -6,41 +6,40 @@ const blockStyles = [
 	{
 		block: 'core/button',
 		styles: [
-			{ name: 'prolooks-brand', label: 'Brand' },
-			{ name: 'prolooks-base', label: 'Base' },
+			{ name: 'brand', label: 'Brand' },
+			{ name: 'base', label: 'Base' },
 		],
 	},
 	{
 		block: 'core/details',
-		styles: [ { name: 'prolooks-chevron', label: 'Chevron' } ],
+		styles: [ { name: 'chevron', label: 'Chevron' } ],
 	},
 	{
 		block: 'core/gallery',
-		styles: [ { name: 'prolooks-scale-effect', label: 'Scale Effect' } ],
+		styles: [ { name: 'scale-effect', label: 'Scale Effect' } ],
 	},
 	{
 		block: 'core/group',
-		styles: [ { name: 'prolooks-spotlight', label: 'Spotlight' } ],
-		styles: [ { name: 'prolooks-bg-gradient', label: 'Gradient' } ],
+		styles: [ { name: 'bg-gradient', label: 'Gradient' } ],
 	},
 	{
 		block: 'core/image',
-		styles: [ { name: 'prolooks-picture-frame', label: 'Picture Frame' } ],
+		styles: [ { name: 'picture-frame', label: 'Picture Frame' } ],
 	},
 	{
 		block: 'core/list',
 		styles: [
-			{ name: 'prolooks-checkmark', label: 'Checkmark' },
-			{ name: 'prolooks-crossmark', label: 'Crossmark' },
-			{ name: 'prolooks-crossmark-2', label: 'Crossmark 2 Red' },
-			{ name: 'prolooks-checkmark-2', label: 'Checkmark 2 Green' },
+			{ name: 'checkmark', label: 'Checkmark' },
+			{ name: 'crossmark', label: 'Crossmark' },
+			{ name: 'crossmark-2', label: 'Crossmark 2 Red' },
+			{ name: 'checkmark-2', label: 'Checkmark 2 Green' },
 		],
 	},
 	{
 		block: 'core/paragraph',
-		styles: [ { name: 'prolooks-indicator', label: 'Indicator' },
-			 { name: 'prolooks-overline', label: 'Overline' },
-			 { name: 'prolooks-checkmark', label: 'Checkmark' } ],
+		styles: [ { name: 'indicator', label: 'Indicator' },
+			 { name: 'overline', label: 'Overline' },
+			 { name: 'checkmark', label: 'Checkmark' } ],
 	},
 ];
 

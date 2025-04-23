@@ -4,7 +4,7 @@
 
 /* Block Style: Checkmark
 ============================================================== */
-.wp-block-list.is-style-prolooks-checkmark {
+.wp-block-list.is-style-checkmark {
 	list-style-type: "\2713";
 	padding-inline-start: 1ch;
 
@@ -15,7 +15,7 @@
 
 /* Block Style: Checkmark 2 Green
 ============================================================== */
-.wp-block-list.is-style-prolooks-checkmark-2 {
+.wp-block-list.is-style-checkmark-2 {
 	padding: 0;
 	& > li {
 		position: relative;
@@ -40,7 +40,7 @@
 
 /* Block Style: Crossmark
 ============================================================== */
-.wp-block-list.is-style-prolooks-crossmark {
+.wp-block-list.is-style-crossmark {
 	list-style-type: "\2717";
 	padding-inline-start: 3ch;
 	& li {
@@ -50,7 +50,7 @@
 
 /* Block Style: Crossmark 2 Red
 ============================================================== */
-.wp-block-list.is-style-prolooks-crossmark-2 {
+.wp-block-list.is-style-crossmark-2 {
 	padding: 0;
 	& li {
 		position: relative;

@@ -15,7 +15,7 @@ p{
 
 /* Block Style: Indicator
 ============================================================== */
-p.is-style-prolooks-indicator {
+p.is-style-indicator {
 	padding-inline-start: var(--wp--preset--spacing--10);
 	text-indent: -2px; /* adjust the space of the border */
 	&::before {
@@ -38,7 +38,7 @@ p.is-style-prolooks-indicator {
 
 /* Block Style: Checkmark
 ============================================================== */
-p.is-style-prolooks-checkmark {
+p.is-style-checkmark {
 	//text-indent: calc(-1 * (var(--wp--preset--spacing--10) + 1.25ch));
     //padding-left: var(--wp--preset--spacing--10) + 1ch;
 	&::before {
@@ -53,7 +53,7 @@ p.is-style-prolooks-checkmark {
  * Block Style: Overline
  */
 
- p.is-style-prolooks-overline {
+ p.is-style-overline {
 	text-transform: uppercase;
 	letter-spacing: clamp(0.063rem, 0.156vw + 0rem, 0.125rem);
 	font-size: clamp(0.75rem, 0.313vw + 0.625rem, 0.875rem);
