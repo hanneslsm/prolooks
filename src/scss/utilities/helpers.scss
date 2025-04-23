@@ -138,3 +138,10 @@
   .rotate-minus-3 {
 	transform: rotate(-3deg);
   }
+
+  .title-underline em{
+	text-decoration: underline;
+	text-decoration-color: var(--wp--preset--color--brand-3);
+	text-decoration-thickness: 0.15em;
+	text-underline-offset: 0.05em;
+  }
