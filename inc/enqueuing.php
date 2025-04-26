@@ -1,121 +1,94 @@
 <?php
 /**
- * Enqueue files
- * 
+ * Enqueue frontend and editor styles.
+ *
  * @package prolooks
- * @since 1.0
+ * @since 0.1.0
  */
 
-
-
 /**
- * Enqueue Stylesheets
-*/
-function prolooks_enqueue_styles() {
-    // Enqueue style.css
-    wp_enqueue_style('wp-styles', get_stylesheet_uri());
-}
-add_action('wp_enqueue_scripts', 'prolooks_enqueue_styles');
-
-/**
- * Enqueue Block specific assets 
+ * Enqueue global CSS and JavaScript for both the frontend and editor.
  */
-function enqueue_prolooks_blocks_editor_assets() {
-    $blocks_dir = get_template_directory() . '/blocks/';
-    $block_folders = glob($blocks_dir . '*', GLOB_ONLYDIR);
+function prolooks_enqueue_scripts() {
+	// Enqueue the global CSS.
+	$global_style_path   = get_template_directory_uri() . '/build/css/global.css';
+	$global_style_asset  = require get_template_directory() . '/build/css/global.asset.php';
 
-    foreach ($block_folders as $block_folder) {
-        $block_name = basename($block_folder);
+	wp_enqueue_style(
+		'prolooks-global-style',
+		$global_style_path,
+		$global_style_asset['dependencies'],
+		$global_style_asset['version']
+	);
 
-        // Enqueue variations.js
-        $variations_js_path = $block_folder . '/variations.js';
-        if (file_exists($variations_js_path)) {
-            wp_enqueue_script(
-                'block-' . $block_name . '-variations-js',
-                get_template_directory_uri() . '/blocks/' . $block_name . '/variations.js',
-                array('wp-blocks', 'wp-dom-ready', 'wp-edit-post'),
-                wp_get_theme()->get('Version'),
-                true
-            );
-        }    
-        
-        // Enqueue unregister.js
-        $unregister_js_path = $block_folder . '/unregister.js';
-        if (file_exists($unregister_js_path)) {
-            wp_enqueue_script(
-                'block-' . $block_name . '-unregister-js',
-                get_template_directory_uri() . '/blocks/' . $block_name . '/unregister.js',
-                array('wp-blocks', 'wp-dom-ready', 'wp-edit-post'),
-                wp_get_theme()->get('Version'),
-                true
-            );
-        }        
+	// Enqueue the global JavaScript.
+	$global_script_path   = get_template_directory_uri() . '/build/js/global.js';
+	$global_script_asset  = require get_template_directory() . '/build/js/global.asset.php';
 
-        // Enqueue styles.js
-        $styles_js_path = $block_folder . '/styles.js';
-        if (file_exists($styles_js_path)) {
-            wp_enqueue_script(
-                'block-' . $block_name . '-styles-js',
-                get_template_directory_uri() . '/blocks/' . $block_name . '/styles.js',
-                array('wp-blocks', 'wp-dom-ready', 'wp-edit-post'),
-                wp_get_theme()->get('Version'),
-                true
-            );
-        }
-
-        // Enqueue styles.css for the editor
-        if (file_exists($block_folder . '/styles.css')) {
-            wp_enqueue_style(
-                'block-' . $block_name . '-editor-styles',
-                get_template_directory_uri() . '/blocks/' . $block_name . '/styles.css',
-                array(),
-                wp_get_theme()->get('Version')
-            );
-        }
-    }
+	wp_enqueue_script(
+		'prolooks-global-script',
+		$global_script_path,
+		$global_script_asset['dependencies'],
+		$global_script_asset['version'],
+		true
+	);
 }
-add_action('enqueue_block_editor_assets', 'enqueue_prolooks_blocks_editor_assets');
+add_action( 'enqueue_block_assets', 'prolooks_enqueue_scripts' );
 
 /**
- * Register block styles 
+ * Enqueue the screen CSS for the frontend.
  */
-function register_prolooks_blocks_styles() {
-    $blocks_dir = get_template_directory() . '/blocks/';
-    $block_folders = glob($blocks_dir . '*', GLOB_ONLYDIR);
+function prolooks_enqueue_frontend_styles() {
+	$screen_style_path   = get_template_directory_uri() . '/build/css/screen.css';
+	$screen_style_asset  = require get_template_directory() . '/build/css/screen.asset.php';
 
-    foreach ($block_folders as $block_folder) {
-        $block_name = basename($block_folder);
-
-        // Determine if it's a core block or custom block
-        $wp_block_name = (strpos($block_name, 'core-') === 0) ? 
-                         'core/' . str_replace('core-', '', $block_name) : 
-                         $block_name;
-
-        // Register styles.css
-        if (file_exists($block_folder . '/styles.css')) {
-            wp_enqueue_block_style(
-                $wp_block_name,
-                array(
-                    'handle' => $block_name . '-styles',
-                    'src'    => get_template_directory_uri() . '/blocks/' . $block_name . '/styles.css',
-                )
-            );
-        }
-    }
+	wp_enqueue_style(
+		'prolooks-screen-style',
+		$screen_style_path,
+		$screen_style_asset['dependencies'],
+		$screen_style_asset['version']
+	);
 }
-add_action('init', 'register_prolooks_blocks_styles');
+add_action( 'wp_enqueue_scripts', 'prolooks_enqueue_frontend_styles' );
 
-// Enqueue CSS assets for both frontend and block editor
-function enqueue_prolooks_styles_and_editor() {
-    $directory = get_template_directory() . '/assets/styles/';
-    $styles = glob($directory . '*.css');
+/**
+ * Enqueue the editor CSS for the block editor.
+ */
+function prolooks_enqueue_editor_styles() {
+	$editor_style_path   = get_template_directory_uri() . '/build/css/editor.css';
+	$editor_style_asset  = require get_template_directory() . '/build/css/editor.asset.php';
 
-    foreach ($styles as $style) {
-        $file = basename($style);
-        wp_enqueue_style($file, get_template_directory_uri() . '/assets/styles/' . $file);
-        add_editor_style(get_template_directory_uri() . '/assets/styles/' . $file);
-    }
+	wp_enqueue_style(
+		'prolooks-editor-style',
+		$editor_style_path,
+		$editor_style_asset['dependencies'],
+		$editor_style_asset['version']
+	);
 }
+add_action( 'enqueue_block_editor_assets', 'prolooks_enqueue_editor_styles' );
 
-add_action('wp_enqueue_scripts', 'enqueue_prolooks_styles_and_editor'); // For frontend
-add_action('enqueue_block_editor_assets', 'enqueue_prolooks_styles_and_editor'); // For block editor
+/**
+ * Enqueue individual block styles from the build/css/blocks directory.
+ */
+function prolooks_enqueue_block_styles() {
+	$blocks_dir   = get_theme_file_path( 'build/css/blocks/' );
+	$block_styles = glob( $blocks_dir . '*.css' );
+
+	if ( $block_styles ) {
+		foreach ( $block_styles as $style_path ) {
+			$filename   = basename( $style_path, '.css' );
+			// Replace only the first hyphen with a slash for the block name.
+			$block_name = preg_replace( '/-/', '/', $filename, 1 );
+			$style_uri  = get_theme_file_uri( 'build/css/blocks/' . $filename . '.css' );
+
+			wp_enqueue_block_style(
+				$block_name,
+				array(
+					'handle' => 'prolooks-' . $filename . '-style',
+					'src'    => $style_uri,
+				)
+			);
+		}
+	}
+}
+add_action( 'init', 'prolooks_enqueue_block_styles' );

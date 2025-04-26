@@ -1,0 +1,158 @@
+{
+	"settings": {
+
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+
+
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/spectral/spectral-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/spectral/spectral-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/spectral/spectral-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/spectral/spectral-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "Spectral, serif",
+					"name": "Spectral",
+					"slug": "spectral"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": "0.75rem"
+					},
+					"name": "small",
+					"size": "0.8125rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.12rem",
+						"min": "1rem"
+					},
+					"name": "medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.125rem"
+					},
+					"name": "large",
+					"size": "1.25rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"min": "1.25rem"
+					},
+					"name": "x-large",
+					"size": "1.5rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"min": "1.75rem"
+					},
+					"name": "xx-large",
+					"size": "2rem",
+					"slug": "xx-large"
+				}
+			]
+		}
+	},
+	"styles": {
+
+		"elements": {
+
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--spectral)",
+			"fontStyle": "normal",
+			"fontWeight": "500"
+		}
+	},
+	"version": 3,
+	"title": "typeset-6",
+	"slug": "typeset-6"
+}

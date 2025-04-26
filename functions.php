@@ -1,9 +1,9 @@
 <?php
 /**
  * prolooks functions and definitions
- * 
+ *
  * @package prolooks
- * @since 1.0
+ * @since 0.1.0
  */
 
 
@@ -11,7 +11,7 @@
 require get_template_directory() . '/inc/setup.php';
 
 // Patterns Setup
-require get_template_directory() . '/inc/patterns.php';
+require get_template_directory() . '/inc/block-patterns.php';
 
 // Enqueue files
 require get_template_directory() . '/inc/enqueuing.php';

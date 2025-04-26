@@ -1,0 +1,80 @@
+{
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+
+
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Phudu",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/phudu/phudu-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Phudu",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/phudu/phudu-600-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "Phudu, system-ui",
+					"name": "Phudu",
+					"slug": "phudu"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Assistant",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/assistant/assistant-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Assistant",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/assistant/assistant-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "Assistant, sans-serif",
+					"name": "Assistant",
+					"slug": "assistant"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--phudu)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--assistant)",
+			"fontStyle": "normal",
+			"fontWeight": "500"
+		}
+	},
+	"version": 3,
+	"title": "Typeset 3",
+	"slug": "typeset-3"
+}
